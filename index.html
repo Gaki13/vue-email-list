@@ -14,7 +14,12 @@
     </head>
     <body>
         <div id="app">
-            
+            <ul v-show="emailList" v-for="(email, index) in emailList">
+                <li>{{emailList[index]}}</li>
+            </ul>
         </div>
+
+        <!-- link javasscrpit -->
+        <script src="js/main.js"></script>
     </body>
 </html>
