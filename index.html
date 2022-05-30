@@ -14,8 +14,8 @@
     </head>
     <body>
         <div id="app">
-            <ul v-show="emailList" v-for="(email, index) in emailList">
-                <li>{{emailList[index]}}</li>
+            <ul v-show="emailList" >
+                <li v-for="(email, index) in emailList">{{emailList[index]}}</li>
             </ul>
         </div>
 

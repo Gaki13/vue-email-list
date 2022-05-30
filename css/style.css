@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 22px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #64F01A;
+}
+
+#app{
+    padding: 50px;
+    border: 1px solid #64F01A;
+}
+
+ul{
+    list-style: none;
+}
